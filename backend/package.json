@@ -1,0 +1,20 @@
+{
+  "name": "bus-ticket-backend",
+  "version": "1.0.0",
+  "description": "CUSTOMER APIS 1. Get ticket list with status 2. Get open ticket list 3. Get closed ticket list 4. Get ticket list based on seat number 5. Update open ticket status",
+  "main": "ticket-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "joi": "^17.12.0",
+    "winston": "^3.11.0"
+  }
+}
